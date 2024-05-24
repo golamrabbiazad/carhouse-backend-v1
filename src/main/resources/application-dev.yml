@@ -1,0 +1,40 @@
+server:
+  http2:
+    enabled: true
+  shutdown: graceful
+spring:
+  application:
+    name: fullstack-car-house
+  datasource:
+    url: jdbc:mariadb://localhost:3306/fullstackcardb
+    username: root
+    password: password
+    driver-class-name: org.mariadb.jdbc.Driver
+  data:
+    rest:
+      base-path: /api/v1
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MariaDB106Dialect
+
+springdoc:
+  api-docs:
+    path: /api/v1/api-docs
+    version: openapi_3_0
+  swagger-ui:
+    path: /api/v1/swagger-ui.html
+    enabled: true
+    syntax-highlight:
+      theme: "monokai"
+    persist-authorization: true
+    operations-sorter: alpha
+    tags-sorter: alpha
+    filter: true
+    layout: BaseLayout
+    disable-swagger-default-url: true
+  show-actuator: true

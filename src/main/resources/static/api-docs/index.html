@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Car API Reference</title>
+    <meta charset="utf-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1" />
+</head>
+<body>
+<!-- Add your own OpenAPI/Swagger specification URL here: -->
+<!-- Note: The example is our public proxy (to avoid CORS issues). You can remove the `data-proxy-url` attribute if you don’t need it. -->
+<script id="api-reference"></script>
+
+
+<!-- Optional: You can set a full configuration object like this: -->
+<script>
+    const configuration = {
+        theme: 'default',
+        spec: {
+            url: "/api/v1/api-docs"
+        },
+    };
+
+    document.getElementById('api-reference').dataset.configuration =
+        JSON.stringify(configuration)
+</script>
+<script src="scripts/api-reference.js"></script>
+
+</body>
+</html>
