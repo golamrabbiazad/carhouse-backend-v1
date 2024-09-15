@@ -1,6 +1,9 @@
 package com.golamrabbiazad.fullstackcarhouse;
 
 import com.golamrabbiazad.fullstackcarhouse.domain.*;
+import com.golamrabbiazad.fullstackcarhouse.repository.AppUserRepository;
+import com.golamrabbiazad.fullstackcarhouse.repository.CarRepository;
+import com.golamrabbiazad.fullstackcarhouse.repository.OwnerRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -31,7 +34,6 @@ public class FullstackCarHouseApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		userRepository.save(new AppUser("subscriber59", "$2a$12$IfcucP0Mzs6OyQ7xpLPe2urpJoxDVdUkVxH.ndtcsvoStqhVE7TiS", "ADMIN"));
-
 
 		Owner owner1 = new Owner("Owner", "1");
 		Owner owner2 = new Owner("Mr", "2");

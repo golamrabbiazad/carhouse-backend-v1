@@ -1,5 +1,7 @@
-package com.golamrabbiazad.fullstackcarhouse;
+package com.golamrabbiazad.fullstackcarhouse.config;
 
+import com.golamrabbiazad.fullstackcarhouse.auth.AuthEntryPoint;
+import com.golamrabbiazad.fullstackcarhouse.auth.AuthenticationFilter;
 import com.golamrabbiazad.fullstackcarhouse.service.UserDetailsServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

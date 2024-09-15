@@ -2,7 +2,7 @@ package com.golamrabbiazad.fullstackcarhouse.service;
 
 
 import com.golamrabbiazad.fullstackcarhouse.domain.AppUser;
-import com.golamrabbiazad.fullstackcarhouse.domain.AppUserRepository;
+import com.golamrabbiazad.fullstackcarhouse.repository.AppUserRepository;
 import org.springframework.security.core.userdetails.User.UserBuilder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,5 +1,6 @@
-package com.golamrabbiazad.fullstackcarhouse.domain;
+package com.golamrabbiazad.fullstackcarhouse.repository;
 
+import com.golamrabbiazad.fullstackcarhouse.domain.Car;
 import io.swagger.v3.oas.annotations.media.Schema;
 import org.springframework.data.repository.CrudRepository;
 

@@ -1,4 +1,4 @@
-package com.golamrabbiazad.fullstackcarhouse;
+package com.golamrabbiazad.fullstackcarhouse.auth;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -10,8 +10,6 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-
-import static java.lang.StringTemplate.STR;
 
 @Component
 public class AuthEntryPoint implements AuthenticationEntryPoint {

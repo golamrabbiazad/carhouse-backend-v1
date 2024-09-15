@@ -1,4 +1,4 @@
-package com.golamrabbiazad.fullstackcarhouse;
+package com.golamrabbiazad.fullstackcarhouse.auth;
 
 import io.jsonwebtoken.*;
 import org.springframework.security.core.userdetails.UserDetails;

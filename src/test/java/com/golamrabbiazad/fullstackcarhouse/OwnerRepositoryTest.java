@@ -1,7 +1,7 @@
 package com.golamrabbiazad.fullstackcarhouse;
 
 import com.golamrabbiazad.fullstackcarhouse.domain.Owner;
-import com.golamrabbiazad.fullstackcarhouse.domain.OwnerRepository;
+import com.golamrabbiazad.fullstackcarhouse.repository.OwnerRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;

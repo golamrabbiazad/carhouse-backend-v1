@@ -1,6 +1,7 @@
-package com.golamrabbiazad.fullstackcarhouse.domain;
+package com.golamrabbiazad.fullstackcarhouse.web;
 
-import com.golamrabbiazad.fullstackcarhouse.JwtService;
+import com.golamrabbiazad.fullstackcarhouse.auth.JwtService;
+import com.golamrabbiazad.fullstackcarhouse.dto.AccountCredentials;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;

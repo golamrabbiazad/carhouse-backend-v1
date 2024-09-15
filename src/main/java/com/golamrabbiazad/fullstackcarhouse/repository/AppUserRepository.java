@@ -1,5 +1,6 @@
-package com.golamrabbiazad.fullstackcarhouse.domain;
+package com.golamrabbiazad.fullstackcarhouse.repository;
 
+import com.golamrabbiazad.fullstackcarhouse.domain.AppUser;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;

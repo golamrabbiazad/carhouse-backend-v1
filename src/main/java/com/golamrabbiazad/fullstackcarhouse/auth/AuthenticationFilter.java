@@ -1,4 +1,4 @@
-package com.golamrabbiazad.fullstackcarhouse;
+package com.golamrabbiazad.fullstackcarhouse.auth;
 
 import com.golamrabbiazad.fullstackcarhouse.service.UserDetailsServiceImpl;
 import jakarta.servlet.FilterChain;

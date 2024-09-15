@@ -1,7 +1,7 @@
 package com.golamrabbiazad.fullstackcarhouse.web;
 
 import com.golamrabbiazad.fullstackcarhouse.domain.Car;
-import com.golamrabbiazad.fullstackcarhouse.domain.CarRepository;
+import com.golamrabbiazad.fullstackcarhouse.repository.CarRepository;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
